@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grunge_noscale">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="290.8dp"
+        android:layout_height="110dp"
+        android:id="@+id/mainLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp" />
+    <TextView
+        android:text="Aanmelden voor RoboRally"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="225.3dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/aanmeldBericht"
+        android:shadowColor="#171717"
+        android:shadowRadius="5"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainLogo"
+        android:layout_marginTop="10dp"
+        android:textColor="#F7F7F7" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:id="@+id/firstName"
+        android:hint="Voornaam"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aanmeldBericht"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:id="@+id/lastName"
+        android:hint="Achternaam"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:id="@+id/userName"
+        android:hint="Gebruikersnaam"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lastName"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:id="@+id/userPass"
+        android:password="true"
+        android:hint="Wachtwoord"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:id="@+id/userPassVerify"
+        android:password="true"
+        android:hint="Herhaal wachtwoord"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userPass"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp" />
+    <Button
+        android:text="Aanmelden"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userPassVerify"
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerButton" />
+    <Button
+        android:text="Ik heb een account"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/registerButton"
+        android:layout_marginTop="5dp"
+        android:id="@+id/accountButton" />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F7F7"
+        android:id="@+id/errorHandler"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/accountButton" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+SplashScreen.SplashActivity;splashscreen.SplashActivity
+RoboRally.LoginActivity;roborally.LoginActivity
+RoboRally.RegisterActivity;roborally.RegisterActivity
+RoboRally.MenuActivity;roborally.MenuActivity
+RoboRally.SettingActivity;roborally.SettingActivity
+RoboRally.MultiplayerActivity;roborally.MultiplayerActivity
+RoboRally.SingleplayerActivity;roborally.SingleplayerActivity
+RoboRally.GameActivity;roborally.GameActivity

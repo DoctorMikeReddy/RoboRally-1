@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grunge_noscale">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="8dp" />
+    <TextView
+        android:textSize="32dp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#171717"
+        android:shadowRadius="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedName"
+        android:layout_toRightOf="@id/userIcon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="290.8dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainLogo"
+        android:layout_below="@+id/userIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp" />
+    <Button
+        android:text="Singleplayer"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/singleplayerButton" />
+    <Button
+        android:text="Multiplayer"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/multiplayerButton"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/singleplayerButton" />
+    <Button
+        android:text="Instellingen"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/instellingenButton"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/multiplayerButton" />
+</RelativeLayout>
